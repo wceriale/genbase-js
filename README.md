@@ -54,10 +54,10 @@ Lorem ipsum.
 [downloads-url]:https://www.npmtrends.com/genbase
 [npm-img]:https://genbase.dev/genbase_logo_only.svg
 [npm-url]:https://www.npmjs.com/package/genbase-js
-[issues-img]:https://img.shields.io/github/issues/ryansonshine/typescript-npm-package-template
-[issues-url]:https://github.com/ryansonshine/typescript-npm-package-template/issues
-[codecov-img]:https://codecov.io/gh/wceriale/genbase/branch/main/graph/badge.svg
-[codecov-url]:https://codecov.io/gh/wceriale/genbase
+[issues-img]:https://img.shields.io/github/issues/wceriale/genbase-js
+[issues-url]:https://github.com/wceriale/genbase-js/issues
+[codecov-img]:https://codecov.io/gh/wceriale/genbase-js/branch/main/graph/badge.svg
+[codecov-url]:https://codecov.io/gh/wceriale/genbase-js
 [semantic-release-img]:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-url]:https://github.com/semantic-release/semantic-release
 [commitizen-img]:https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
