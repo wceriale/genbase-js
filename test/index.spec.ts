@@ -1,13 +1,16 @@
-import { myPackage } from '../src';
+import { createClient } from '../src';
 
 describe('index', () => {
-  describe('myPackage', () => {
-    it('should return a string containing the message', () => {
-      const message = 'Hello';
+  describe('createClient', () => {
+    it('should create a client and test method should return the input message', () => {
+      const privateKey = 'test-private-key';
+      const workflowId = 'test-workflow-id';
+      const testMessage = 'hello';
 
-      const result = myPackage(message);
+      const genbase = createClient(privateKey, workflowId);
+      const result = genbase.test(testMessage);
 
-      expect(result).toMatch(message);
+      expect(result).toBe(testMessage);
     });
   });
 });
