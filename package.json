@@ -1,6 +1,6 @@
 {
   "name": "genbase",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "genbase client typescript library.",
   "main": "./lib/index.js",
   "files": [
